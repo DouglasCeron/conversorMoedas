@@ -24,7 +24,7 @@ class ConverterButton extends StatelessWidget {
             SizedBox(
               height: 15,
             ),
-            DropdownButton<CurrencyModel>(
+            DropdownButton(
               value: selectedItem,
               iconEnabledColor: Colors.amber,
               underline: Container(
